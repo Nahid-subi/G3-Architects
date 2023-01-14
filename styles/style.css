@@ -90,6 +90,50 @@ nav a{
     width: 90%;
     height: 100%;
 }
+/* quick list section start */
+.quick-list-section{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.quick-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 85px;
+}
+.quick-list-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 14px;
+}
+.quick-list-grid img{
+    width: 320px;
+    height: 320px;  
+}
+.quick-list-text h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.span-1{
+    color: #131313;
+    font-weight: 700;
+}
+.span-2{
+    font-weight: 700;
+    color: #FF900E;
+}
+.quick-list-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
 /* media query mobile */
 @media only screen and (max-width:576px){
     nav{
@@ -104,6 +148,8 @@ nav a{
     nav a{
         font-size: 14px;
     }
+/* Architects section */
+
     .architect h1{
         font-size: 32px;
         line-height: 35px;
@@ -113,5 +159,21 @@ nav a{
         line-height: 16px;
         margin: 15px;
     }
-
+/* quick list section start */
+    .quick-list{
+        flex-direction: column;
+    }
+    .quick-list-grid{
+        grid-template-columns: repeat(1,1fr);
+        /* gap: 14px; */
+    }
+    .quick-list-grid img{
+        width: 100%;
+        height: 100%;
+         
+    }
+    .quick-list-text h2{
+        font-size: 32px;
+        line-height: 45px;
+    }
 }
