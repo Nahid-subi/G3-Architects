@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header section start */
+header{
+    background-color:#FF900E1A;
+    height: 1322px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1250px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav li{
+    list-style: none;
+}
+nav h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
+/* Architects section */
+.architect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 100px;
+}
+.architect h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+.architect p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+.arc-btn{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;    
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+.arc-btn:hover{
+    color: #FF900E;
+    background: #FFFFFF;
+    border: 2px solid #FF900E;
+}
+.architect-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.architect-img img{
+    max-width: 1200px;
+    width: 90%;
+    height: 100%;
+}
+/* media query mobile */
+@media only screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+    nav h3{
+        font-size: 30px;
+    }
+    nav ul{
+        gap: 15px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    .architect h1{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .architect p{
+        font-size: 12px;
+        line-height: 16px;
+        margin: 15px;
+    }
+
+}
