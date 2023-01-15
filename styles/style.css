@@ -398,7 +398,10 @@ footer p{
         font-size: 30px;
     }
     nav ul{
-        gap: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
     nav a{
         font-size: 14px;
