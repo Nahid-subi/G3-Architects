@@ -360,7 +360,24 @@ nav a{
     height: 50px;
     width: 150px;
 }
-
+/* footer section */
+footer{
+    max-width: 1250px;
+    height: 100px;
+    width: 100%;
+    background: #FFF4E7;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+}
+footer p{
+    margin: 38px auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+}
 
 
 
@@ -528,6 +545,11 @@ nav a{
     }
     .Sponsors{
         flex-direction: column;
+    }
+    footer p{
+        margin: 38px 10px;
+        font-weight: 400;
+        font-size: 10px;
     }
    
 }
