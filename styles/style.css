@@ -8,7 +8,7 @@
 header{
     background-color:#FF900E1A;
     height: 1322px;
-    width: 100%;
+
 }
 nav{
     display: flex;
@@ -38,6 +38,9 @@ nav a{
     font-size: 18px;
     line-height: 26px;
     color: #424242;
+}
+nav a:hover{
+    color: #FF900E;
 }
 /* Architects section */
 .architect{
@@ -84,6 +87,7 @@ nav a{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .architect-img img{
     max-width: 1200px;
@@ -383,6 +387,10 @@ footer p{
 
 /* media query mobile */
 @media only screen and (max-width:576px){
+    /* header */
+    header{
+        height: 100%;
+    }
     nav{
         flex-direction: column;
     }
